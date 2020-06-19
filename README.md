@@ -1,24 +1,14 @@
-# README
+# SAML SP - Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app acts as a SP that receives a SAML payload
 
-Things you may want to cover:
+# SETUP
 
-* Ruby version
+```
+git clone git@github.com:Bharat311/saml-sp-demo.git
+cd saml-sp-demo
+bundle
+rails s
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You should now have the app running locally on `localhost:3000`
